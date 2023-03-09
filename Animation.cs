@@ -4,12 +4,12 @@ using static ConsoleRPG.Utils.InputOutput;
 
 namespace ConsoleRPG.Utils
 {
-    internal class Animation
+    internal class AnimationGame
     {
         string[][] animation;
         bool stop = true;
 
-        public void StopAnimarion() { stop = false; }
+        protected void StopAnimarion() { stop = false; }
         
         public string[] GetFrame(int num)
         {
