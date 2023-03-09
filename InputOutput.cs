@@ -2,6 +2,7 @@
 using System.Diagnostics.Eventing.Reader;
 using System.Security.Cryptography;
 using System.Threading;
+using System.Collections.Generic;
 
 namespace ConsoleRPG.Utils
 {
