@@ -1,7 +1,5 @@
 ﻿using System.Threading.Tasks;
 
-using static ConsoleRPG.Utils.InputOutput;
-
 namespace ConsoleRPG.Utils
 {
     internal class AnimationGame
